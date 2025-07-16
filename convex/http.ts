@@ -67,6 +67,8 @@ http.route({
       }
     }
 
+    // TODO- HANDLE THE user.updated in the video
+
 
     return new Response("Webhooks processed successfully", { status: 200});
 
