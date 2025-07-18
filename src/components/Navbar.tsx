@@ -32,7 +32,7 @@ const Navbar = () => {
               </Link>
 
               <Link
-                href="/generate-program"
+                href="/generate-routine"
                 className="flex items-center gap-1.5 text-sm hover:text-primary transition-colors"
               >
                 <DumbbellIcon size={16} />
@@ -51,7 +51,7 @@ const Navbar = () => {
                 variant="outline"
                 className="ml-2 border-primary/50 text-primary hover:text-white hover:bg-primary/10"
               >
-                <Link href="/generate-program">Get Started</Link>
+                <Link href="/generate-routine">Get Started</Link>
               </Button>
               <UserButton />
             </>

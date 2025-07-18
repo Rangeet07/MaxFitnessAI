@@ -16,7 +16,7 @@ import { useUser } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-const GenerateProgramPage = () => {
+const GenerateRoutinePage = () => {
   const [callActive, setCallActive] = useState(false);
   const [connecting, setConnecting] = useState(false);
   const [isSpeaking, setIsSpeaking] = useState(false);
@@ -330,4 +330,4 @@ const GenerateProgramPage = () => {
     </div>
   );
 };
-export default GenerateProgramPage;
+export default GenerateRoutinePage;
